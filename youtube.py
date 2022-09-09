@@ -14,14 +14,12 @@ customtkinter.set_default_color_theme("green")
 
 app = customtkinter.CTk()
 app.geometry("350x550")
-video_pic = tkinter.PhotoImage(file='./assets/video.png')
-audio_pic = tkinter.PhotoImage(file='./assets/mp4.png')
 
 
 #--------------------------------------------------------------------------------------------------------------#
 
 
-label = customtkinter.CTkLabel(master=app, text="Bret's Youtube Downloader", text_font=(
+label = customtkinter.CTkLabel(master=app, text="Youtube Downloader", text_font=(
     "Helvetica", 17), width=120, height=25, corner_radius=8)
 label.pack(padx=15, pady=40)
 
